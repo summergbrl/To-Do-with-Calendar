@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Summer's To-Do Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="todo-summer">
+                <h2>Summer's To-Do List</h2>
+                <header>
+                    <nav class="menu-bar">
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="todo.html">To-Do</a></li>
+                            <li><a href="calendar.html">Calendar</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+
+                <div class="row">
+                    <input class="input" type="text" id="Summer" placeholder="Add Your List">
+                    <button onClick="addtask()">Add</button>
+                    <div class="date-display" id="date-display"></div>
+                </div>
+                <ul id="t-l">
+                </ul>
+            </div>
+        </div>
+
+
+        <script src="summer.js"></script>
+        <div class="watermark">Summer's Test Website - To Do</div>
+
+    </body>
+</html>
